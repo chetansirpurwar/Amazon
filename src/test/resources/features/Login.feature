@@ -8,14 +8,3 @@ Feature: Login Validation
     And provide password as "chocklatefactory"
     Then User should login successfully
     And Name of the user is displayed with welcome text
-
-  @tag2
-  Scenario Outline: Title of your scenario outline2
-    Given I want to write a step with <name>
-    When I check for the <value> in step
-    Then I verify the <status> in step
-
-    Examples: 
-      | name  | value | status  |
-      | name1 |     5 | success |
-      | name2 |     7 | Fail    |
